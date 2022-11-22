@@ -1,6 +1,4 @@
 # quiz
-Quiz játék
+Orbán Viktor quiz játék
 
-main.py-ba futtatható
-
-feltesz kérdéseket a program, ha jól válaszol a felhasználó, akkor a program kiirja hogy "A válasz helyes!" és tovább visz a következő kérdésre, ha rosszul, akkor a program elmondja a helyes választ és továbbvisz a következő kérdésre
+6 db kérdést tesz fel a program bölcs vezérünkről és ezekre sorban lehet válaszolni. Minden kérdésre 4 db válasz lehetőség van és ezekre 1-4ig terjedő számokkal lehet válaszolni
