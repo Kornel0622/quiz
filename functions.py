@@ -19,7 +19,7 @@ for kerdes in kerdesek:
     print("Ez nem egy szám volt:")
     userAnsw = input()
   userAnsw = int(userAnsw)
-  while not (userAnsw > 0 and 5 < userAnsw <= len(possible)):
+  while not (userAnsw > 0 and userAnsw <= len(possible)):
     print("Ez a szám nem tartozik egy válaszhoz se:")
     userAnsw = input()
   if possible[userAnsw-1] == kerdes.corrAnsw:
